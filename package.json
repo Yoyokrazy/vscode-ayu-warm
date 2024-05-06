@@ -1,17 +1,13 @@
 {
-  "name": "ayu",
-  "displayName": "Ayu",
+  "name": "ayu-warm",
+  "displayName": "Ayu-Warm",
   "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
   "version": "1.0.3",
-  "publisher": "teabyii",
-  "license": "MIT",
+  "publisher": "",
+  "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayu-theme/vscode-ayu"
-  },
-  "bugs": {
-    "url": "https://github.com/ayu-theme/vscode-ayu/issues",
-    "email": "teabyii@gmail.com"
+    "url": "https://github.com/Yoyokrazy/vscode-ayu-warm"
   },
   "engines": {
     "vscode": "^1.13.0"
@@ -24,39 +20,13 @@
     "theme",
     "ayu"
   ],
-  "homepage": "https://github.com/ayu-theme/vscode-ayu",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [
       {
-        "label": "Ayu Dark",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dark.json"
-      },
-      {
-        "label": "Ayu Dark Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dark-bordered.json"
-      },
-      {
-        "label": "Ayu Light",
-        "uiTheme": "vs",
-        "path": "./ayu-light.json"
-      },
-      {
-        "label": "Ayu Light Bordered",
+        "label": "Ayu Light (warm) Bordered",
         "uiTheme": "vs",
         "path": "./ayu-light-bordered.json"
-      },
-      {
-        "label": "Ayu Mirage",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage.json"
-      },
-      {
-        "label": "Ayu Mirage Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage-bordered.json"
       }
     ],
     "iconThemes": [
